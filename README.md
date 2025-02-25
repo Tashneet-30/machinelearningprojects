@@ -24,7 +24,7 @@ MLProject/
 - **`requirements.txt`**: Lists all required dependencies for the project.
 - **`setup.py`**: A script to package the project, making it installable.
 
-### What You Did Today
+### Today's Checklist-25 February 2025
 1. Created a **`src/`** folder and added `__init__.py` to define it as a package.
 2. Set up a **virtual environment (venv)** for dependency management.
 3. Added a **`.gitignore`** file to exclude unnecessary files.
@@ -67,3 +67,4 @@ setup(
 
 This `setup.py` file ensures that the ML project can be installed and used as a package.
 
+The `-e .` (editable mode) is used in requirements.txt to install the package in development mode. This allows you to make changes to the code without reinstalling the package every time.
